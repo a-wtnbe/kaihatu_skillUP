@@ -35,8 +35,20 @@ header.header-box {
 .main-visual {
   width: 100%;
   height: 650px;
-  background-color: red;
-  /* background-image: "img/mv.png"; */
+  background-image: url(img/mv.png);
+  background-size: cover;
+  text-align: center;
+  padding-top: 200px;
+}
+.main-main {
+  font-size: 64px;
+  color: #FAFAFA;
+  
+}
+.main-sub {
+  font-size: 20px;
+  color: #FAFAFA;
+  margin-top: 10px;
 }
 
 .portfolio {
