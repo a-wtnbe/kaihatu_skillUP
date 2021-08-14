@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff9a4b;
+  height: 50px;
+  width: auto;
+}
+.boxs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 960px;
+}
+.box {
+  background-color: #eeeeee;
+  width: 300px;
+}
+.step {
+  background-color: #ff9a4b;
+}
+.img1 {
+  background-image: url(img/flow01.png);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.title {
+  margin-top: 15px;
+}
+.text {
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #aaaaaa;
+  height: 50px;
+  width: auto;
+}
