@@ -13,10 +13,12 @@ header {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 960px;
+  float: left;
 }
 .box {
   background-color: #eeeeee;
   width: 300px;
+  overflow: hidden;
 }
 .step {
   background-color: #ff9a4b;
