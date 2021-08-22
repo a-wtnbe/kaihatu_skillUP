@@ -20,6 +20,11 @@ header {
   margin-right: 30px;
   position: relative;
 }
+
+.box:last-child {
+  margin-right: 0;
+}
+
 .step {
   background-color: #ff9a4b;
   color: #ffffff;
@@ -59,17 +64,17 @@ footer {
   height: 50px;
 }
 
-header {
-  height: 50px;
-}
-.boxs {
-  margin: 50px auto;
-  width: 100%;
-}
-.box {
-  width: 90%;
-  margin: 20px;
-}
-footer {
-  height: 50px;
+@media screen and (max-width: 768px) {
+  .boxs {
+    margin: 50px auto;
+    width: 100%;
+    display: block;
+  }
+  .box {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  .box:last-child　 {
+    margin: auto;
+  }
 }
