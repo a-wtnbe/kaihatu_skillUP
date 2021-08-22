@@ -58,3 +58,18 @@ footer {
   background-color: #aaaaaa;
   height: 50px;
 }
+
+header {
+  height: 50px;
+}
+.boxs {
+  margin: 50px auto;
+  width: 100%;
+}
+.box {
+  width: 90%;
+  margin: 20px;
+}
+footer {
+  height: 50px;
+}
