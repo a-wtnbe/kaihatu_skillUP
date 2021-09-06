@@ -6,12 +6,14 @@
 
 N = int(input("N"))
 for i in range(N):
-  s_a = input("s_a").split()
-  s = s_a[0]
-  a =int(s_a[1])
-  print(s, a+1)
+    s_a = input("s_a").split()
+    s = s_a[0]
+    a = int(s_a[1])
+    print(s, a+1)
 
 # split()でリスト化されるもんを、名前[0], 歳[1]の順で抽出
 # a(歳)は、数値として扱う。
 # print(s + a+1)ではなく、print(s, a+1)で出すように。
 # 多分。タプル内の話やから。
+
+# pythonすげぇ楽しい！！！
