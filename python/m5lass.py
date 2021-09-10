@@ -5,30 +5,30 @@
 # 入力値が、
 # 1
 # 13：00 1 30 　とする。
-N = int(input()) #1の部分
+N = int(input())  # 1の部分
 for i in range(N):
-  [t,h,m] = input().split() #13:00 1 30
-  t_h = int(t[:2]) #13
-  t_m = int(t[3:]) #00
-  h = int(h) #1
-  m = int(m) #30
+    [t, h, m] = input().split()  # 13:00 1 30
+    t_h = int(t[:2])  # 13
+    t_m = int(t[3:])  # 00
+    h = int(h)  # 1
+    m = int(m)  # 30
 
 a_h = t_h + h
 a_m = t_m + m
 
 if a_m >= 60:
-  a_h += 1
-  a_m -= 60
-if a_h >=24:
-  a_h -= 24
+    a_h += 1
+    a_m -= 60
+if a_h >= 24:
+    a_h -= 24
 
 a_h = str(a_h)
 a_m = str(a_m)
 
 if len(a_h) == 1:
-  a_h = "0" + a_h
+    a_h = "0" + a_h
 if len(a_m) == 1:
-  a_m = "0" + a_m
+    a_m = "0" + a_m
 
 print(a_h + ":" + a_m)
 
@@ -61,16 +61,16 @@ for i in range(N):
     t_m = int(t[3:])
     h = int(h)
     m = int(m)
-    
+
     a_h = t_h + h
     a_m = t_m + m
-    
+
     if a_m >= 60:
         a_h += 1
         a_m -= 60
     if a_h >= 24:
         a_h -= 24
-        
+
     a_h = str(a_h)
     a_m = str(a_m)
     if len(a_h) == 1:
