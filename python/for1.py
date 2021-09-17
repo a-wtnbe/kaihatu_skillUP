@@ -8,3 +8,9 @@ for i in range(n):
   if int(a[i]) % 3 == 0:
     ans += 1
 print(ans)
+
+
+# そっか。aは、別にintじゃなくていいんか。
+# 加えて、if int(a[i]) % 3 == 0
+# ↑この部分美しすぎん？
+# 納得の納得やわ。。。。。
