@@ -14,3 +14,21 @@
 
 
 # ans↓
+n = int(input("n"))
+flag = False
+for i in range(n):
+    a = int(input("a"))
+    if a == 7:
+        flag = True
+if flag:
+    print("YES")
+else:
+    print("NO")
+
+# なるほど。flagで論理演算するのか。
+# んで、最初は虚偽（False)から始めて、
+# 7が見つかったら、真（True)を再代入しての
+# IFによる条件定理でYES or NO か。。。。
+# なっとく。
+# 発想がすごい。
+# ちくしょう！！！！！！！！
