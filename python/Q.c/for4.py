@@ -18,3 +18,20 @@
 
 
 # ans ↓
+m = int(input("m"))
+c = [""] * m
+for i in range(m):
+  c[i] = input("c")
+
+n = int(input("n"))
+s = [""] * n
+for i in range(n):
+  s[i] = input("s")
+
+for i in range(m):
+  for j in range(n):
+    if c[i] in s[j]:
+      print("YES")
+    else:
+      print("NO")
+
