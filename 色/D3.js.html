@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>D3.js</title>
+        <style>
+            .bar {
+                margin-bottom: 10px;
+                width: 0;
+                padding: 5px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+    d3.selectAll("div")
+    .data([10, 50, 80])
+    .enter().append("div")
+    .text( function(d){ return d; } )
+    .style('background', 'yellow')
+    .attr('class','bar')
+    .transition()
+    .duration(1000)
+    .style("width", function(d) { return d*2+'px'; });
+</script>
+    </body>
+</html>
